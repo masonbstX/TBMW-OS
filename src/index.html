@@ -14,7 +14,7 @@ I should have put like helpful comments for ya here and there that can help you.
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cine-Cloud OS</title>
+<title>TBMW OS</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Great+Vibes&display=swap');
 
@@ -498,7 +498,7 @@ body {
 <div style="position: fixed; top: 0; left: 50%; transform: translateX(-50%); z-index: 1000; display: flex; gap: 10px;">
   <div class="top-notch" onclick="tglV('h')" style="position: relative; left: auto; top: auto; transform: none; cursor: pointer;">
     <img src="https://freepngimg.com/convert-png/89656-icons-circle-computer-black-white-steam" alt="Logo">
-    <span>Cine-Cloud by C.S</span> <! Just incase you dont know C.S stands for Cine-Softwares !>
+    <span>TBMW OS d by mason</span> <! Mason is cool !>
   </div>
   <div class="top-notch" id="n-game" onclick="tglV('g')" style="position: relative; left: auto; top: auto; transform: none; cursor: pointer; display: none; background: rgba(255,255,255,0.15);">
     <span id="n-game-title" style="color: #fff;">Game</span>
@@ -508,7 +508,7 @@ body {
 
 <! THE Boot Screen !>
 <div id="new-boot">
-  <div class="fig-title">FIGURE</div>
+  <div class="fig-title">TBMW OS</div>
   <div class="fig-line"></div>
 </div>
 
@@ -517,10 +517,10 @@ body {
 
 <div id="app-wrap">
 
-  <div id="v-cine" class="tab-view active">
+  <div id="v-tbmw" class="tab-view active">
     <div id="error-fallback" style="display:none; text-align:center; padding:50px; color:#ff4d4d; font-weight:bold;">Failed to load game library.</div>
     
-    <div id="cine-content">
+    <div id="tbmw-content">
       <div class="sec-head" id="hc-head" style="margin-top:0;">Continue Playing</div>
       <div class="hero-cont" id="hc-box" onclick="">
         <img src="" id="hc-img" class="h-img">
@@ -610,7 +610,7 @@ body {
       <h3 style="margin:0 0 15px 0; font-size:18px; color:#fff;">Themes</h3>
       <div style="display:flex; gap:15px; flex-wrap:wrap;">
         <div class="swatch-btn btn-dark" style="background:#050505;" onclick="setTheme('dark')"></div>
-        <div class="swatch-btn btn-figure" style="background:#ff4d4d;" onclick="setTheme('figure')"></div>
+        <div class="swatch-btn btn-tbmw" style="background:#ff4d4d;" onclick="setTheme('tbmw')"></div>
         <div class="swatch-btn btn-neon" style="background:#00d2ff;" onclick="setTheme('neon')"></div>
         <div class="swatch-btn btn-forest" style="background:#05c46b;" onclick="setTheme('forest')"></div>
         <div class="swatch-btn btn-sunset" style="background:#f53b57;" onclick="setTheme('sunset')"></div>
@@ -678,7 +678,7 @@ body {
   <div class="main-dock">
     <img src="https://freepngimg.com/convert-png/89656-icons-circle-computer-black-white-steam" class="d-logo">
     <div class="d-sep"></div>
-    <div class="d-btn active" id="b-cine" onclick="chgTab('cine')">Cine</div>
+    <div class="d-btn active" id="b-tbmw" onclick="chgTab('tbmw')">TBMW</div>
     <div class="d-btn" id="b-lib" onclick="chgTab('lib')">Library</div>
     <div class="d-btn" id="b-tut" onclick="chgTab('tut')">Tutorial</div>
     <div class="d-btn" id="b-set" onclick="chgTab('set')">Settings</div>
@@ -757,9 +757,9 @@ body {
     <h2>Legal Notice & Disclaimer</h2>
     <div id="legal-scroll" style="max-height:160px; overflow-y:auto; font-size:13px; line-height: 1.6; color:#aaa; text-align:left; padding:15px; background:rgba(0,0,0,0.3); border-radius:12px; margin-bottom:20px; border: 1px solid var(--border);" onscroll="checkLegalScroll(this)">
       <p><strong>Please read carefully before proceeding.</strong></p>
-      <p>Cine Softwares and the Cine-Cloud platform are not hosting, storing, or distributing any of the games presented on this application. All games are merely embedded via standard iFrames pointing directly to their original providers.</p>
+      <p>TBMW Softwares and the TBMW-Cloud platform are not hosting, storing, or distributing any of the games presented on this application. All games are merely embedded via standard iFrames pointing directly to their original providers.</p>
       <p>We do not claim ownership of any trademarks, copyrighted materials, or intellectual property displayed within the application. If there are any legal disputes or DMCA claims regarding the hosting and playing of these games, they should be directed towards the source host, <strong>Raccoon Games</strong>.</p>
-      <p>By clicking "I Agree", you acknowledge that Cine Softwares acts solely as a UI aggregator and is free from any liability regarding third-party content.</p>
+      <p>By clicking "I Agree", you acknowledge that TBMW Softwares acts solely as a UI aggregator and is free from any liability regarding third-party content.</p>
       <p><em>Scroll to the bottom to accept. NOTE THIS PLEASE, YOU MUST ALLOW POP UPS!</em></p><br><br><br><br>
       <p>End of notice.</p>
     </div>
@@ -823,7 +823,7 @@ body {
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
     </div>
     <h2>Developer Embed</h2>
-    <p style="font-size:13px; color:#ccc;">You can skip to the easy work and use Figure Cloud to play PC games.</p>
+    <p style="font-size:13px; color:#ccc;">You can skip to the easy work and use TBMW Cloud to play PC games.</p>
     <textarea id="embed-code-area" readonly style="width:100%; height:120px; background:rgba(0,0,0,0.5); color:#aaa; border:1px solid var(--border); border-radius:12px; padding:15px; font-family:monospace; font-size:12px; resize:none; margin-bottom:20px; box-sizing:border-box;"></textarea>
     <div class="popup-btn-row">
       <button class="popup-btn secondary" onclick="hidePopup('p-embed-block')">Close</button>
@@ -834,7 +834,7 @@ body {
 
 <div id="m-a2hs" style="position:fixed; bottom:-200px; left:0; width:100%; background:var(--glass); backdrop-filter:blur(30px); border-top:1px solid var(--border); border-top-left-radius:24px; border-top-right-radius:24px; padding:25px; box-sizing:border-box; z-index:99999999999; transition:bottom 0.5s cubic-bezier(0.16,1,0.3,1); box-shadow:0 -10px 40px rgba(0,0,0,0.5);">
   <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
-    <h3 style="margin:0; color:#fff; font-size:16px;">Add Figure to Home Screen</h3>
+    <h3 style="margin:0; color:#fff; font-size:16px;">Add TBMWto Home Screen</h3>
     <svg onclick="clsA2hs()" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" style="cursor:pointer;"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
   </div>
   <p style="margin:0; font-size:13px; color:#aaa; line-height:1.6;">For the ultimate fullscreen experience, tap <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" style="vertical-align:middle;margin:0 2px;"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg> (iOS) or <b style="color:#fff;">&#8942;</b> (Android) and select <b>Add to Home Screen</b>.</p>
@@ -894,7 +894,7 @@ window.addEventListener('DOMContentLoaded',()=>{
   let isStandAlone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone || document.referrer.includes('android-app://');
   
   if(isMobile) { 
-    setTimeout(() => { showToast("Welcome to Figure - Mobile"); }, 2500); 
+    setTimeout(() => { showToast("Welcome to TBMW - Mobile"); }, 2500); 
     if(!localStorage.getItem('fig_a2hs') && !isStandAlone) {
       setTimeout(() => {
         let el = document.getElementById('m-a2hs');
@@ -1292,7 +1292,7 @@ window.addEventListener('focus', () => { evalBgMusic(); });
 function setTheme(t){
   let r=document.documentElement;
   if(t==='dark'){r.style.setProperty('--bg','#050505');r.style.setProperty('--accent','#ffffff');r.style.setProperty('--border','rgba(255, 255, 255, 0.08)');}
-  else if(t==='figure'){r.style.setProperty('--bg','#0c0202');r.style.setProperty('--accent','#ff3333');r.style.setProperty('--border','rgba(255, 50, 50, 0.15)');}
+  else if(t==='tbmw'){r.style.setProperty('--bg','#0c0202');r.style.setProperty('--accent','#ff3333');r.style.setProperty('--border','rgba(255, 50, 50, 0.15)');}
   else if(t==='neon'){r.style.setProperty('--bg','#020b14');r.style.setProperty('--accent','#00d2ff');r.style.setProperty('--border','rgba(0, 210, 255, 0.15)');}
   else if(t==='forest'){r.style.setProperty('--bg','#010f08');r.style.setProperty('--accent','#05c46b');r.style.setProperty('--border','rgba(5, 196, 107, 0.15)');}
   else if(t==='sunset'){r.style.setProperty('--bg','#120410');r.style.setProperty('--accent','#f53b57');r.style.setProperty('--border','rgba(245, 59, 87, 0.15)');}
@@ -1311,7 +1311,7 @@ function setTheme(t){
 
 function getEmbedCode(g){
   let u=g.url||g.path;
-  let raw=`(function(){var e=document.createElement('div');e.style='position:fixed;top:0;left:0;width:100%;height:100%;background:#050505;z-index:9999999;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;font-family:sans-serif;font-size:24px;font-weight:bold;';e.innerHTML='<img src="https://freepngimg.com/convert-png/89656-icons-circle-computer-black-white-steam" style="width:80px;margin-bottom:20px;animation:pulse 1.5s infinite;"><div style="letter-spacing:2px;">Powered By Figure Cloud</div><style>@keyframes pulse{0%{transform:scale(1);}50%{transform:scale(1.1);}100%{transform:scale(1);}}</style>';document.body.appendChild(e);setTimeout(function(){e.style.opacity='0';e.style.transition='opacity 0.5s';setTimeout(function(){e.remove();var i=document.createElement('iframe');i.src='${u}';i.style='position:fixed;top:0;left:0;width:100%;height:100%;border:none;z-index:9999998;';document.body.appendChild(i);},500);},3000);})();`;
+  let raw=`(function(){var e=document.createElement('div');e.style='position:fixed;top:0;left:0;width:100%;height:100%;background:#050505;z-index:9999999;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;font-family:sans-serif;font-size:24px;font-weight:bold;';e.innerHTML='<img src="https://freepngimg.com/convert-png/89656-icons-circle-computer-black-white-steam" style="width:80px;margin-bottom:20px;animation:pulse 1.5s infinite;"><div style="letter-spacing:2px;">Powered By TBMW Cloud</div><style>@keyframes pulse{0%{transform:scale(1);}50%{transform:scale(1.1);}100%{transform:scale(1);}}</style>';document.body.appendChild(e);setTimeout(function(){e.style.opacity='0';e.style.transition='opacity 0.5s';setTimeout(function(){e.remove();var i=document.createElement('iframe');i.src='${u}';i.style='position:fixed;top:0;left:0;width:100%;height:100%;border:none;z-index:9999998;';document.body.appendChild(i);},500);},3000);})();`;
   let obf = btoa(unescape(encodeURIComponent(raw)));
   return '<script>eval(decodeURIComponent(escape(atob("'+obf+'"))));<\/script>';
 }
